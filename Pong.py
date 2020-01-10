@@ -3,6 +3,7 @@ Pong Game
 Date: 10.01.2020
 """
 import turtle
+import winsound
 
 # Creating the window
 window = turtle.Screen()
@@ -116,10 +117,14 @@ while True:
         # When ball hits the top border
         ball.sety(290)
         ball.dy *= -1
+        # Plays a sound of ball bounce
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.ycor() < -290:
         # When ball hits the bottom border
         ball.sety(-290)
         ball.dy *= -1
+        # Plays a sound of ball bounce
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.xcor() > 390:
         # When ball hits the right border
         ball.goto(0, 0)
@@ -139,6 +144,10 @@ while True:
     if ball.xcor() > 370 and (paddle_b.ycor() + 50 > ball.ycor() > paddle_b.ycor() - 50):
         # Collision with paddle_b on the right side
         ball.dx *= -1
+        # Plays a sound of ball bounce
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.xcor() < -380 and (paddle_a.ycor() + 50 > ball.ycor() > paddle_a.ycor() - 50):
         # Collision with paddle_a on the left side
         ball.dx *= -1
+        # Plays a sound of ball bounce
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a56691a1-2586-44a2-9548-a446f9271665" name="Default Changelist" comment="" />
+    <list default="true" id="a56691a1-2586-44a2-9548-a446f9271665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578679616375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pong game v1.0">
+      <created>1578679848841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578679848841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,10 +115,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="134" y="19" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1578666755549" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1578679615003">
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1578679858465">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1578679615003" />
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1578679858465" />
     <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1578678911414">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -134,9 +143,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="7" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1578678916337" />
-    <state x="272" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578679827520">
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578679885511">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="272" y="97" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1578679827520" />
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1578679885511" />
   </component>
 </project>

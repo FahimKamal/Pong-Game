@@ -1,5 +1,6 @@
 """
 Pong Game
+Created by: Fahim Kamal Ahmed
 Date: 10.01.2020
 """
 import turtle
@@ -26,8 +27,7 @@ score_write.color("White")
 score_write.penup()
 score_write.hideturtle()
 score_write.goto(0, 260)
-score_write.write(f"Player A: {score_a}  Player B: {score_b}", align='center', font= ('Courier', 24, 'normal'))
-
+score_write.write(f"Player A: {score_a}  Player B: {score_b}", align='center', font=('Courier', 24, 'normal'))
 
 #       Paddle A
 paddle_a = turtle.Turtle()

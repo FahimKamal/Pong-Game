@@ -108,4 +108,7 @@ while True:
 
 while True:
     window.update()
-    game_over.write('GAME OVER', align='center', font=('Courier', 24, 'bold'))
+    game_over.write('GAME OVER', align='center', font=('Courier', 30, 'bold'))
+    score_show.goto(0,-50)
+    score_show.write(f'Final socre : {score}',align='center',font=('Courier', 20, 'normal'))
+    paddle.hideturtle()

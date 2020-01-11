@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56691a1-2586-44a2-9548-a446f9271665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lost_life.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pong_single_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong_single_player.py" afterDir="false" />
     </list>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578749359184</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pong game v1.02&#10;Single Player&#10;Game over sound added">
+      <created>1578750459429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578750459429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,37 +165,38 @@
     <MESSAGE value="Pong game v1.0" />
     <MESSAGE value="Pong game v1.1" />
     <MESSAGE value="Pong game v1.02&#10;Single Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pong game v1.02&#10;Single Player" />
+    <MESSAGE value="Pong game v1.02&#10;Single Player&#10;Game over sound added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pong game v1.02&#10;Single Player&#10;Game over sound added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="134" y="19" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578666755549">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="134" y="19" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1578666755549" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1578749358043">
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1578750458549">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1578749358043" />
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1578750458549" />
     <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1578678911414">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1578678911414" />
-    <state width="1317" height="159" key="GridCell.Tab.0.bottom" timestamp="1578750378548">
+    <state width="1317" height="159" key="GridCell.Tab.0.bottom" timestamp="1578755037201">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="159" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1578750378548" />
-    <state width="1317" height="159" key="GridCell.Tab.0.center" timestamp="1578750378548">
+    <state width="1317" height="159" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1578755037201" />
+    <state width="1317" height="159" key="GridCell.Tab.0.center" timestamp="1578755037200">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="159" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1578750378548" />
-    <state width="1317" height="159" key="GridCell.Tab.0.left" timestamp="1578750378548">
+    <state width="1317" height="159" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1578755037200" />
+    <state width="1317" height="159" key="GridCell.Tab.0.left" timestamp="1578755037200">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="159" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1578750378548" />
-    <state width="1317" height="159" key="GridCell.Tab.0.right" timestamp="1578750378548">
+    <state width="1317" height="159" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1578755037200" />
+    <state width="1317" height="159" key="GridCell.Tab.0.right" timestamp="1578755037200">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="159" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1578750378548" />
+    <state width="1317" height="159" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1578755037200" />
     <state width="1317" height="223" key="GridCell.Tab.1.bottom" timestamp="1578745601920">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -210,10 +217,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="181" y="7" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1578678916337" />
-    <state x="272" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578749374449">
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578750468079">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="272" y="97" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1578749374449" />
+    <state x="272" y="97" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1578750468079" />
     <state x="376" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578744251635">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

@@ -20,7 +20,7 @@ paddle.shape("square")
 paddle.color("white")
 paddle.shapesize(stretch_len=5, stretch_wid=1)
 paddle.penup()
-paddle.goto(0,-280)
+paddle.goto(0, -280)
 
 # Ball
 ball = turtle.Turtle()
@@ -39,7 +39,7 @@ score_show.speed(0)
 score_show.color('white')
 score_show.penup()
 score_show.hideturtle()
-score_show.goto(0,260)
+score_show.goto(0, 260)
 score_show.write(f"Life: {life}    Score: {score}", align='center', font=('Courier', 24, 'normal'))
 
 # Game Over
@@ -54,8 +54,10 @@ game_over.hideturtle()
 def pabble_right():
     paddle.setx(paddle.xcor() + 20)
 
+
 def paddle_left():
     paddle.setx(paddle.xcor() - 20)
+
 
 def show_score():
     score_show.clear()
@@ -66,7 +68,6 @@ def show_score():
 window.listen()
 window.onkeypress(pabble_right, key='Right')
 window.onkeypress(paddle_left, key='Left')
-
 
 # Main Loop
 while True:
@@ -85,7 +86,7 @@ while True:
         ball.dy *= -1
         life -= 1
         show_score()
-        ball.goto(0,0)
+        ball.goto(0, 0)
         winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.ycor() > 290:
         ball.dy *= -1
@@ -109,6 +110,6 @@ while True:
 while True:
     window.update()
     game_over.write('GAME OVER', align='center', font=('Courier', 30, 'bold'))
-    score_show.goto(0,-50)
-    score_show.write(f'Final socre : {score}',align='center',font=('Courier', 20, 'normal'))
+    score_show.goto(0, -50)
+    score_show.write(f'Final socre : {score}', align='center', font=('Courier', 20, 'normal'))
     paddle.hideturtle()

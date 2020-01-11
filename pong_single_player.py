@@ -77,24 +77,35 @@ while True:
     # Border Check
     if ball.xcor() < -215:
         ball.dx *= -1
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.xcor() > 210:
         ball.dx *= -1
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.ycor() < -280:
         ball.dy *= -1
         life -= 1
         show_score()
         ball.goto(0,0)
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
     if ball.ycor() > 290:
         ball.dy *= -1
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
 
     # Ball paddle collision
     if ball.ycor() < -260 and (paddle.xcor() + 50 > ball.xcor() > paddle.xcor() - 50):
         ball.dy *= -1
         score += 1
         show_score()
+        winsound.PlaySound('ball_bounce.wav', winsound.SND_ASYNC)
 
     # Game Over
     if not life:
-        game_over.write('GAME OVER', align='center', font=('Courier', 24, 'bold'))
         ball.hideturtle()
         score_show.clear()
+        winsound.PlaySound('Lost_life.wav', winsound.SND_ASYNC)
+        ball.goto(0, 0)
+        break
+
+while True:
+    window.update()
+    game_over.write('GAME OVER', align='center', font=('Courier', 24, 'bold'))
